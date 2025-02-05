@@ -1,13 +1,19 @@
 {
   "name": "whatsapp_mvp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node build/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Rocha",
   "license": "ISC",
   "type": "commonjs",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.13.1",
+    "inquirer": "^12.4.1"
+  }
 }
